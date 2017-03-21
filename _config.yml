@@ -1,12 +1,12 @@
 # Site settings
 title: Jacob Bovee
-email:
+email: jacob.r.bovee@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
 github_username: jbovee
+linkedin: jacob-bovee
 
 # Build settings
 markdown: kramdown
