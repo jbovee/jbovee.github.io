@@ -1,12 +1,9 @@
-# Site settings
-title: Jacob Bovee
-email: jacob.r.bovee@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+name: Solar Theme
+url: http://example.org
+description: A stylish blog using the Solarized color palette
 
-github_username: jbovee
-linkedin: jacob-bovee
+permalink: /:year/:month/:day/:title/
+paginate: 10
 
-# Build settings
-markdown: kramdown
+gems: [jekyll-paginate]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
