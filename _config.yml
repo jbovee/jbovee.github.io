@@ -1,9 +1,19 @@
-name: Solar Theme
-url: http://example.org
-description: A stylish blog using the Solarized color palette
+title: Jacob Bovee
+url: https://jake.bov.ee
+description: The site of Jacob Bovee
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+github: [metadata]
+encoding: UTF-8
+kramdown:
+  input: GFM
+  hard_wrap: false
