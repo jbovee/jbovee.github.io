@@ -48,7 +48,7 @@ a:hover {
 }
 
 p, pre { margin-bottom: 15px; }
-ul, ol { padding: 0 0 18px 30px; }
+ul, ol { padding: 0 0 18px 0; }
 ol li, ul li { margin-top: 10px; margin-bottom: 10px; }
 em, i { font-style: italic; }
 strong, b { font-weight: bold; }
@@ -156,7 +156,7 @@ h3 {
 	border: none;
 	font-family: "Helvetica Neue", "Helvetica", serif;
 	font-size: 1.2em;
-	padding: 2px 4px;
+	padding: 2px 4px 2px 0px;
 }
 
 /*** Posts ***/
@@ -233,10 +233,18 @@ img.header {
 /*** Media Queries ***/
 @media all and (max-width: 870px) {
 
-	#page, #header, #content, #footer {
+	#content {
 		width: inherit;
-		padding-left: 10px;
-		padding-right: 10px;
+	}
+
+	#page, #header, #footer {
+		width: inherit;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	#header {
+		margin-bottom: 10px;
 	}
 
 	#sidebar {
@@ -244,7 +252,10 @@ img.header {
 		text-align: left;
 		width: 100%;
 		left: 0;
-		margin: 10px 10px 20px 10px;
+	}
+
+	#sidebar nav ul li {
+		display: inline;
 	}
 
 	#sidebar nav select.mnav {
