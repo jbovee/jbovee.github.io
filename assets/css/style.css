@@ -159,13 +159,7 @@ h3 {
 	padding: 2px 4px;
 }
 
-
-
 /*** Posts ***/
-article {
-	margin-bottom: 40px;
-}
-
 article h1 {
 	font-size: 17px;
 	margin: 0 0 10px 0;
@@ -187,6 +181,14 @@ article .meta {
 	padding-top: 6px;
 	font-size: 0.85em;
 	font-style: italic;
+}
+
+article.home {
+	margin-bottom: 40px;
+}
+
+article.archive {
+	margin-bottom: 10px;
 }
 
 img.left {
