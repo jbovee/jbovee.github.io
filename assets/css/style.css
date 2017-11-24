@@ -244,12 +244,13 @@ img.header {
 	}
 
 	#header {
+		text-align: center;
 		margin-bottom: 10px;
 	}
 
 	#sidebar {
 		position: relative;
-		text-align: left;
+		text-align: center;
 		width: 100%;
 		left: 0;
 	}
