@@ -3,9 +3,17 @@ layout: default
 ---
 <article class="project">
 
-	<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+	<div class="header">
+		<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
 
-	<img class="header" src="/images/{{ page.image }}">
+		<a href="{{ page.github-link }}" target="_blank">
+			<svg fill="#CDEE69" title="Github" width="16" height="16">
+				<use xlink:href="/assets/icons.svg#github-icon"></use>
+			</svg>
+		</a>
+
+		<img src="/images/{{ page.image }}">
+	<div>
 
 	<div class="project-content">{{ content }}</div>
 
