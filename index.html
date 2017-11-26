@@ -8,10 +8,10 @@ title: Jacob Bovee
 
 	<article class="project home">
 
-		<h1>
-			<a href="{{ project.url }}">{{ project.title }}</a>
-		</h1>
-		<img class="header" src="/images/{{ project.image }}">
+		<div class="header">
+			<h1><a href="{{ project.url }}">{{ project.title }}</a></h1>
+			<img src="/images/{{ project.image }}">
+		<div>
 		<div class="project-content">{{ project.content }}</div>
 
 	</article>
