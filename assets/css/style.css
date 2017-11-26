@@ -160,21 +160,34 @@ h3 {
 }
 
 /*** Posts ***/
-article h1 {
-	font-size: 17px;
-	margin: 0 0 10px 0;
-}
-article h1 a {
-	border: none;
-}
-article h1 a.anchor {
-	margin-left: 8px;
-}
-
 article img {
 	display: block;
 	text-align: center;
 	margin: 0 auto 1em auto;
+}
+article div.header {
+	display: block;
+}
+article div.header h1 {
+	font-size: 17px;
+	margin: 0 0 10px 0;
+	float: left;
+}
+article div.header a {
+	border: none;
+}
+article div.header a.anchor {
+	margin-left: 8px;
+}
+article div.header svg {
+	vertical-align: bottom;
+	padding: 0 4px 0 4px;
+}
+article div.header img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto 1em 0;
 }
 
 article .meta {
@@ -204,13 +217,15 @@ img.center {
 	text-align: center;
 	margin: 0 auto 1em auto;
 }
-img.header {
-	display: block;
-	max-width: 100%;
-	height: auto;
-	margin: 0 auto 1em 0;
+
+.skill {
+	display: inline;
+	margin: 0 10px 0 10px;
 }
 
+.skills {
+	margin-bottom: 10px;
+}
 
 
 /*** Pagination ***/
