@@ -203,6 +203,9 @@ article.home {
 article.archive {
 	margin-bottom: 10px;
 }
+article.archive a {
+	border: none;
+}
 
 img.left {
 	float: left;
