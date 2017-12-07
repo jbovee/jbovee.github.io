@@ -5,7 +5,8 @@ description:  "A Chrome extension for opening videos from YouTube playlists with
 image: stop-list-example.png
 github-link: https://github.com/jbovee/stop-list
 categories: javascript
-order: 4
+start: 2017-11-01
+end: 2017-11-01
 ---
 
 I swear I'll fill these out soon

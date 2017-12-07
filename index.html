@@ -3,19 +3,23 @@ layout: default
 title: Jacob Bovee
 ---
 
-{% assign projects = site.projects | sort: 'order' %}
-{% for project in projects reversed %}
+{% assign projectsByS = site.projects | group_by_exp:'project','project.start | start: "%F"' | sort: 'name' | reverse %}
+{% for projectByS in projectsByS %}
+	{% assign projectsByE = projectByS.items | group_by_exp:'project','project.end | end: "%F"' | sort: 'name' | reverse %}
+	{% for projectByE in projectsByE %}
+		{% assign projects = projectByE.items %}
+		{% for project in projects %}
+			<article class="project home">
 
-	<article class="project home">
+				<div class="header">
+					<h1><a href="{{ project.url }}">{{ project.title }}</a></h1>
+					<img src="/images/{{ project.image }}">
+				</div>
+				<div class="project-content">{{ project.content }}</div>
 
-		<div class="header">
-			<h1><a href="{{ project.url }}">{{ project.title }}</a></h1>
-			<img src="/images/{{ project.image }}">
-		</div>
-		<div class="project-content">{{ project.content }}</div>
-
-	</article>
-
+			</article>
+		{% endfor %}
+	{% endfor %}
 {% endfor %}
 
 

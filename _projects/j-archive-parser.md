@@ -5,7 +5,8 @@ description: "A Python script to crawl through j-archive.com and parse jeopardy 
 image: j-archive-csv-example.png
 github-link: https://github.com/jbovee/j-archive-parser
 categories: python html css
-order: 1
+start: 2017-04-01
+end: 2017-05-01
 ---
 
 Lotta random text.
