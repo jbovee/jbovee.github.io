@@ -36,7 +36,7 @@ blockquote {
 	border-color: #CDEE69;
 }
 
-article.project:hover {
+article.project.home:hover {
 	background-color: #333333;
 }
 
