@@ -28,12 +28,16 @@ h1 a:hover {
 	color: #CDEE69;
 }
 
-article h1 a.anchor {
-	color: #809029;
+p {
+	color: #899683;
 }
 
 blockquote {
 	border-color: #CDEE69;
+}
+
+article.project:hover {
+	background-color: #333333;
 }
 
 #sidebar a:hover {
