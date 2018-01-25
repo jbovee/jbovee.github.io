@@ -11,11 +11,13 @@ title: Jacob Bovee
 		{% for project in projects %}
 			<article class="project home">
 
-				<div class="header">
-					<h1><a href="{{ project.url }}">{{ project.title }}</a></h1>
-					<img src="/images/{{ project.image }}">
-				</div>
-				<div class="project-content">{{ project.content }}</div>
+				<a href="{{ project.url }}">
+					<div class="header">
+						<h1>{{ project.title }}</h1>
+						<img src="/images/{{ project.image }}">
+					</div>
+					<p>{{ project.description }}</p>
+				</a>
 
 			</article>
 		{% endfor %}
