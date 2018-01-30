@@ -9,4 +9,4 @@ start: 2017-05-01
 end: 2017-08-01
 ---
 
-More text, again so I can see how it looks.
+I am still writing the full post, so for the moment this page is blank.

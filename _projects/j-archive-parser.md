@@ -9,14 +9,10 @@ start: 2017-04-01
 end: 2017-05-01
 ---
 
+I am still writing the full post, so for the moment this page just has an outline.
+
 - Deciding on info to retrieve
 - Set up to crawl through j-archive.com
 - Parsing rounds
 - Checking for blank pages
 - Figuring out how/where to parse each piece of info from
-
-{% highlight python %}
-#this is how you add code snippets
-def abc():
-	print("abc")
-{% endhighlight %}
