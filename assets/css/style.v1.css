@@ -183,7 +183,7 @@ article div.header svg {
 	vertical-align: bottom;
 	padding: 0 4px 0 4px;
 }
-article div.header img {
+article div.header img, article div.project-content video {
 	display: block;
 	max-width: 100%;
 	height: auto;
