@@ -1,7 +1,7 @@
 ---
 layout: redirected
 sitemap: false
-permalink: /ncaam-viz/
+permalink: /ncaam-viz
 redirect_to: http://jbovee.pythonanywhere.com
 title:  "Shot Visualizer"
 description: "Interactive visualizaiton of shots from Men's NCAA Basketball Games"
